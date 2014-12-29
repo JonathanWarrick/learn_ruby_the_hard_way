@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "ex48"
+  spec.name          = "ex49"
   spec.version       = '1.0'
   spec.authors       = ["Jonathan Warrick"]
   spec.email         = ["jonathan.warrick@gmail.com"]
@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://jonathanwarrick.com"
   spec.license       = "MIT"
 
-  spec.files         = ['lib/ex48/lexicon.rb', 'lib/ex48/parser.rb']
-  spec.executables   = ['bin/ex48']
-  spec.test_files    = ['tests/test_ex48.rb', 'tests/test_parser.rb']
+  spec.files         = ['lib/ex49.rb']
+  spec.executables   = ['bin/ex49']
+  spec.test_files    = ['tests/test_ex49.rb']
   spec.require_paths = ["lib"]
 end
